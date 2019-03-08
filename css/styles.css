@@ -146,11 +146,16 @@ input[type=radio]+label {
 
 input:focus, select:focus, textarea:focus {
   outline-color: #c4c244;
+  background-color: #c4c244;
+  transition: 0.5s;
 }
 
-
 .zipc label {
-  width: 100%;
+  display: block;
+}
+
+input#zip {
+  width: 25%;
 }
 
 /* media query */
@@ -160,19 +165,22 @@ input:focus, select:focus, textarea:focus {
 
 
 .contactinfo select {
-  margin-left: 150px;
   width: 75%;
   float: left;
+    display: inline-block;
 }
 
 .contactinfo input {
-  margin-left: 150px;
   width: 75%;
   float: left;
+    display: inline-block;
 }
 
 .contactinfo label {
   width: 150px;
+  float: left;
+  display: inline-block;
+  line-height: 4.5em;
 }
 
 
